@@ -1,11 +1,11 @@
-/* id */
+/* class selectors */
+/* CSS class applies a style to multiple elements. ID, on the other hand, applies a style to one unique element. */
 
-#heading {
-  color: cyan;
-  background: black;
+.black {
+  color: black;
 }
 
-#footer {
-  color: darkgoldenrod;
-  background: darkgray;
+.red {
+  color: red;
+  background: blueviolet;
 }
