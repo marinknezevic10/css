@@ -1,8 +1,11 @@
-/* grouping selectors */
-body {
-  color: blue;
+/* id */
+
+#heading {
+  color: cyan;
+  background: black;
 }
-h1,
-h2 {
-  color: red;
+
+#footer {
+  color: darkgoldenrod;
+  background: darkgray;
 }
