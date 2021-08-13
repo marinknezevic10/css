@@ -1,13 +1,10 @@
+/* element selectors */
 h1 {
-  color: cadetblue;
-  font-size: 4rem;
+  color: coral;
 }
 h2 {
-  color: chartreuse;
+  color: cornflowerblue;
 }
-/* css rule */
-/* selectors(h1,h2,...div...) */
-/* declaration block */
-/* declaration  */
-/* property */
-/* value */
+p {
+  color: crimson;
+}
