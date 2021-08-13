@@ -1,8 +1,10 @@
-/* class selectors */
-/* CSS class applies a style to multiple elements. ID, on the other hand, applies a style to one unique element. */
+/* div span elements */
+/* used for grouping */
+/* div starts a new line */
+/* span used for styling within the text inline */
 
 .black {
-  color: black;
+  color: blueviolet;
 }
 
 .red {
@@ -10,10 +12,11 @@
   background: blueviolet;
 }
 
-#title {
-  font-size: 40px;
+div {
+  color: red;
+  background: black;
 }
 
-.lowercase {
-  text-transform: lowercase;
+span {
+  text-transform: uppercase;
 }
