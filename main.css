@@ -1,10 +1,8 @@
-/* element selectors */
-h1 {
-  color: coral;
+/* grouping selectors */
+body {
+  color: blue;
 }
+h1,
 h2 {
-  color: cornflowerblue;
-}
-p {
-  color: crimson;
+  color: red;
 }
