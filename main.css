@@ -1,14 +1,13 @@
-/* inheritance */
-/* whatever style we add to the parent element, children element inherits it, unless we style it specifically */
+/* more inheritance */
 
 body {
-  color: red;
+  font-family: monospace;
+  line-height: 1.5em;
 }
-/* by setting body element with color red everything inside body element also becomes red, therefore we call it inheritance */
 
-/* if we add div inside body element and set it to color blue then paragraphs are gonna inherit said color */
 div {
   color: blue;
+  border: 3px solid black;
 }
 h2 {
   color: green;
