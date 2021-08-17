@@ -1,20 +1,25 @@
-/* rgb red,green,blue 0-255 */
+/* rgba 0-1 opacity/transparency */
 
 #first {
-  color: rgb(255, 9, 0);
-  background-color: rgb(0, 0, 0);
+  color: rgb(100, 123, 56);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 #second {
-  color: rgb(0, 255, 0);
-  background-color: rgb(255, 255, 255);
+  color: rgb(45, 200, 29);
+  background: rgba(0, 0, 0, 0.25);
 }
 
 #three {
+  color: rgb(255, 0, 0);
+  background: rgba(0, 0, 0, 0);
+}
+
+#four {
   color: rgb(0, 0, 255);
-  background: rgb(100, 100, 100);
+  background: rgba(0, 0, 0, 1);
 }
 
 body {
-  background: rgb(100, 200, 250);
+  background: rgba(10, 200, 45, 0.19);
 }
