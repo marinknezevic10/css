@@ -1,22 +1,15 @@
-/* div span elements */
-/* used for grouping */
-/* div starts a new line */
-/* span used for styling within the text inline */
+/* inheritance */
+/* whatever style we add to the parent element, children element inherits it, unless we style it specifically */
 
-.black {
-  color: blueviolet;
-}
-
-.red {
+body {
   color: red;
-  background: blueviolet;
 }
+/* by setting body element with color red everything inside body element also becomes red, therefore we call it inheritance */
 
+/* if we add div inside body element and set it to color blue then paragraphs are gonna inherit said color */
 div {
-  color: red;
-  background: black;
+  color: blue;
 }
-
-span {
-  text-transform: uppercase;
+h2 {
+  color: green;
 }
