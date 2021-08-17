@@ -1,9 +1,10 @@
-/* last rule, universal selector */
-/* css uses the last rule that we write and applies it to a page */
-p {
-  color: blue;
+/* specificity */
+/* paragraph will be red colored eventho we wrote color blue as last rule */
+
+.red {
+  color: red;
 }
 
 p {
-  color: red;
+  color: blue;
 }
