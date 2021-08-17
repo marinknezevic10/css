@@ -1,12 +1,12 @@
-/* universal selector */
-/* *colors everything blue, but gets overwrited */
-/* least powerful */
-/* we used it whenever we wanna reset default browser */
+/*  color properties */
+/* color backround-color */
 
-* {
+#first {
   color: blue;
+  background-color: brown;
 }
 
-p {
-  color: red;
+#second {
+  color: cadetblue;
+  background: crimson;
 }
