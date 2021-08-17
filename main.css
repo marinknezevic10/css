@@ -1,14 +1,9 @@
-/* more inheritance */
-
-body {
-  font-family: monospace;
-  line-height: 1.5em;
-}
-
-div {
+/* last rule, universal selector */
+/* css uses the last rule that we write and applies it to a page */
+p {
   color: blue;
-  border: 3px solid black;
 }
-h2 {
-  color: green;
+
+p {
+  color: red;
 }
