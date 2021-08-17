@@ -1,10 +1,12 @@
-/* specificity */
-/* paragraph will be red colored eventho we wrote color blue as last rule */
+/* universal selector */
+/* *colors everything blue, but gets overwrited */
+/* least powerful */
+/* we used it whenever we wanna reset default browser */
 
-.red {
-  color: red;
+* {
+  color: blue;
 }
 
 p {
-  color: blue;
+  color: red;
 }
