@@ -1,13 +1,20 @@
-/* rem values - RELATIVE depends on root(html)
-1 rem = 16px default browser style
+/* 
+wh - height - percentage of the screen
+vw - widht - percentage of the screen
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-div {
-  font-size: 40px;
+.banner {
+  width: 50vw;
+  height: 50vh;
+  background: red;
 }
-.relative {
-  font-size: 2rem;
-}
-.absolute {
-  font-size: 32px;
+.haler {
+  width: 100vw;
+  height: 100vh;
+  background: blue;
 }
