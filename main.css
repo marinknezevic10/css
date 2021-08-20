@@ -1,15 +1,14 @@
-/* percent values - relative */
-/* percentages depend on the parent element */
+/* em - RELATIVE depends on the parent element */
+/* 1em = 16px default browser style */
+/* 1em = base value */
 
-.outer {
-  width: 500px;
-  height: 500px;
-  background: blue;
+/* in this case only em value would take div(parent element) font-size property of 10px */
+div {
+  font-size: 10px;
 }
-
-.inner {
-  width: 100%;
-  height: 50%;
-  background: red;
+.relative {
+  font-size: 2em;
 }
-/* by adding only inner css nothing happens on the page cause percentages depends on parent elements, in this case div with the name of outer is parent */
+.absolute {
+  font-size: 32px;
+}
