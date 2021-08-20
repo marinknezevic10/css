@@ -1,25 +1,27 @@
-/* rgba 0-1 opacity/transparency */
-
+/* hex */
+/* works alot like rgb */
+/* covers the spectrum of red, green and blue colors */
+/* gives us much more color choices */
+/* uses numbers and letters */
+/* a-f a=10, f=15 */
+/* #FF0000 - red */
+/* #00FF00 - green */
 #first {
-  color: rgb(100, 123, 56);
-  background: rgba(0, 0, 0, 0.5);
+  color: #ff0000;
+  background: #000;
 }
 
 #second {
-  color: rgb(45, 200, 29);
-  background: rgba(0, 0, 0, 0.25);
+  color: #fff;
+  background: #00ff00;
 }
 
 #three {
-  color: rgb(255, 0, 0);
-  background: rgba(0, 0, 0, 0);
+  color: #0000ff;
+  background: #f15025;
 }
 
 #four {
-  color: rgb(0, 0, 255);
-  background: rgba(0, 0, 0, 1);
-}
-
-body {
-  background: rgba(10, 200, 45, 0.19);
+  color: #f234ad;
+  background: #222;
 }
