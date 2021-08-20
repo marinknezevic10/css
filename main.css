@@ -1,27 +1,13 @@
-/* hex */
-/* works alot like rgb */
-/* covers the spectrum of red, green and blue colors */
-/* gives us much more color choices */
-/* uses numbers and letters */
-/* a-f a=10, f=15 */
-/* #FF0000 - red */
-/* #00FF00 - green */
-#first {
-  color: #ff0000;
-  background: #000;
-}
+/* font-size, width, height, pixels */
+/* css properties: font-size, width and height */
+/* css unit:pixel */
+/* font-size is responsible for the size of text */
+/* width and height controls size of elements */
+/* pixel is unit of measurement, 1 pixel = 1 dot on the screen */
 
-#second {
-  color: #fff;
-  background: #00ff00;
-}
-
-#three {
-  color: #0000ff;
-  background: #f15025;
-}
-
-#four {
-  color: #f234ad;
-  background: #222;
+h1 {
+  font-size: 60px;
+  width: 200px;
+  height: 300px;
+  background: blue;
 }
