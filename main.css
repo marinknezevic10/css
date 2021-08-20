@@ -1,13 +1,12 @@
-/* em - RELATIVE depends on the parent element */
-/* 1em = 16px default browser style */
-/* 1em = base value */
+/* rem values - RELATIVE depends on root(html)
+1 rem = 16px default browser style
+*/
 
-/* in this case only em value would take div(parent element) font-size property of 10px */
 div {
-  font-size: 10px;
+  font-size: 40px;
 }
 .relative {
-  font-size: 2em;
+  font-size: 2rem;
 }
 .absolute {
   font-size: 32px;
