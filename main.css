@@ -1,10 +1,22 @@
-/* google fonts
+/* font-weight
+font-style
  */
 
 body {
   font-family: "Caveat", cursive;
   font-size: 1.3rem;
 }
-h1 {
+.main {
   font-family: "Roboto", sans-serif;
+}
+.subheading {
+  font-style: italic;
+}
+.one {
+  font-weight: bold;
+  font-style: italic;
+}
+.two {
+  font-weight: lighter;
+  font-style: oblique;
 }
