@@ -1,21 +1,28 @@
-/* text-align
-text-indent
+/* line-height
+letter-spacing
+word-spacing
+text-transform
+text-decoration
  */
 
+a {
+  font-size: 20px;
+  text-decoration: none;
+}
+h1 {
+  text-transform: capitalize;
+}
 body {
-  font-family: "Caveat", cursive;
-  font-size: 1.3rem;
-  text-align: right;
-}
-.main {
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-}
-.subheading {
+  text-transform: uppercase;
 }
 .one {
+  line-height: 0.5em;
 }
 .two {
-  text-align: left;
-  text-indent: 50px;
+  letter-spacing: 5px;
+  text-decoration: underline;
+}
+.three {
+  word-spacing: 20px;
+  text-decoration: overline;
 }
