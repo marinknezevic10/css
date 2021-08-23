@@ -1,22 +1,21 @@
-/* font-weight
-font-style
+/* text-align
+text-indent
  */
 
 body {
   font-family: "Caveat", cursive;
   font-size: 1.3rem;
+  text-align: right;
 }
 .main {
   font-family: "Roboto", sans-serif;
+  text-align: center;
 }
 .subheading {
-  font-style: italic;
 }
 .one {
-  font-weight: bold;
-  font-style: italic;
 }
 .two {
-  font-weight: lighter;
-  font-style: oblique;
+  text-align: left;
+  text-indent: 50px;
 }
